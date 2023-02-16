@@ -1,0 +1,91 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    font-size: 62.5%;
+    font-family: 'Roboto', sans-serif;
+    color: #FFF;
+}
+
+body {
+    background-image: url(./image/montain1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    gap: 3.2rem;
+
+    margin: 4rem 0 0 7.2rem;
+}
+
+a:first-child {
+    font-size: 2.4rem;
+    font-weight: 700;
+    color: #FFF;
+}
+
+a {
+    font-size: 2.2rem;
+    font-weight: 400;
+    line-height: 2.2rem;
+
+    margin-right: 3.2rem;
+    text-decoration: none;
+    color: #C4C4CC;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    gap: 3.6rem;
+    margin-top: 17.2rem;
+}
+
+h1, h2, h3 {
+    font-size: 4.8rem;
+    font-weight: 700;
+    line-height: 125%;
+}
+
+button {
+    color: #FFF;
+    font-size: 1.4rem;
+    font-weight: 700;
+    line-height: 2.4rem;
+
+    background: none;
+    border-radius: .5rem;
+    border: 2px solid #FFF;
+
+    padding: 1.2rem 3.2rem;
+
+    cursor: pointer;
+}
+
+p {
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 160%;
+
+    color: #E1E1E6;
+
+    width: 64.8rem;
+}
+
+h2, h3 {
+    margin: 10.3rem 0 1.3rem 10.2rem
+}
+
+p {
+    margin-left: 10.2rem;
+}
